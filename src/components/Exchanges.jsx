@@ -33,10 +33,9 @@ const Exchanges = () => {
         <Loader />
       ) : (
         <>
-          <h1 className="text-main_color-600 text-4xl font-bold uppercase mt-2 ml-2">
-            Top Exchanged Coins
-          </h1>
-          <div className="flex flex-wrap bg-main_color-600 w-10/12 border-b-2 border-main_color-200 m-auto pt-20  justify-center gap-8 items-center">
+          <div className="flex flex-wrap overflow-y-auto h-screen 
+          scrollbar-thin  scrollbar-thumb-main_color-800 scrollbar-track-main_color-1000 
+          bg-main_color-600 w-10/12 border-b-2  m-auto pt-20  justify-center gap-8 items-center">
             {exchanges.map((i) => (
               <ExchangesCard
                 key={i.id}
@@ -56,7 +55,7 @@ const Exchanges = () => {
 const ExchangesCard = ({ name, img, rank, url }) => (
   <a href={url} target={"blank"}>
     <div
-      className="w-64 shadow-2xl bg-main_color-200 flex flex-col
+      className="w-64 shadow-2xl overflow-y-auto bg-main_color-200 flex flex-col
     transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-700
     items-center justify-center p-4 "
     >
