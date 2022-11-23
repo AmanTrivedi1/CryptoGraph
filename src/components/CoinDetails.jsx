@@ -102,11 +102,12 @@ const CoinDetails = () => {
   if (error) return <Error/>;
 
   return (
-    <Container maxW={"container.xl"}>
+    <Container p={40} mt={20} maxW={"container.xl"}>
       {loading ? (
         <Loader />
       ) : (
         <>
+        <Text fontSize={"2xl"} color="orange.400">Coin Chart</Text>
           <Box width={"full"} borderWidth={1}>
             <Chart arr={chartArray} currency={currencySymbol} days={days} />
           </Box>
@@ -214,7 +215,7 @@ const CustomBar = ({ high, low }) => (
     <HStack justifyContent={"space-between"} w={"full"}>
       <Badge children={low} colorScheme={"red"} />
       <Text fontSize={"sm"}>24H Range</Text>
-      <Badge children={high} colorScheme={"green"} />
+      <Badge children={high} colorScheme={"red"} />
     </HStack>
   </VStack>
 );
