@@ -3,14 +3,8 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import MainImg from "../components/Images/behnam-norouzi-mp11_hrQXf8-unsplash.jpg";
-
-import img1 from "../components/Images/Img-1.jpg";
-import img2 from "../components/Images/Img-2.jpg";
-import img3 from "../components/Images/Img-3.jpg";
 import img4 from "../components/Images/Img-4.jpg";
-import img5 from "../components/Images/Img-5.jpg";
-import img6 from "../components/Images/Img-6.jpg";
+
 import CoinDetails from "./CoinDetails";
 import Coins from "./Coins";
 import Exchanges from "./Exchanges";
@@ -25,7 +19,7 @@ const Home = () => {
                     <img src={img4} alt="image with decent chairs" className="w-full relative z-30 lg:pl-20 px-6 py-14" />
                 </div>
             </div>
-            <div className="absolute top-0  bg-main_color-400 md:h-96 w-full hidden md:block lg:hidden"></div>
+            <div className="absolute top-0  bg-main_color-600 md:h-96 w-full hidden md:block lg:hidden"></div>
             <div className="w-full h-full lg:hidden">
                 <img src={img4} alt="image with decent chairs" className="w-full relative z-30 lg:pl-20 md:px-6 py-5 md:py-14" />
             </div>

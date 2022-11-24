@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import Img from "../components/Images/Logo.png"
 const Navbar = () => {
   const [show, setShow] = useState(null);
   // const [profile, setProfile] = useState(false);
@@ -16,9 +16,9 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
               <div className="flex w-full sm:w-auto items-center sm:items-stretch justify-end sm:justify-start">
                 <div className="flex flex-row items-center ">
-                  <p className="font-bold text-xl text-main_color-800 uppercase">
-                    Crypto <span className="text-main_color-200">Graph</span>{" "}
-                  </p>
+                
+                  <img src={Img} alt="image with decent chairs rounded" className="w-20 " />
+                
                 </div>
               </div>
               <div className="flex">
@@ -44,9 +44,7 @@ const Navbar = () => {
           <div className="py-4 px-6 w-full h-14 flex xl:hidden justify-between items-center bg-main_color-800 fixed top-0 z-40">
             <div className="w-24">
               <div className="flex flex-row items-center ">
-                <p className="font-bold text-xl text-main_color-600 uppercase">
-                  Crypto <span className="text-main_color-200">Graph</span>{" "}
-                </p>
+              <img src={Img} alt="image with decent chairs rounded" className="w-14 " />
               </div>
             </div>
             <div className="flex items-center">
@@ -83,10 +81,8 @@ const Navbar = () => {
                       <div className="flex items-center justify-between w-full">
                         <div className="flex items-center">
                           <div className="flex flex-row items-center ">
-                            <p className="font-bold text-xl text-main_color-800 uppercase">
-                              {/* Crypto{" "} */}
-                              <span className="text-main_color-200">Graph</span>{" "}
-                            </p>
+                          <img src={Img} alt="image with decent chairs rounded" className="w-14 " />
+                          
                           </div>
                         </div>
                         <div id="cross" onClick={() => setShow(!show)}>
