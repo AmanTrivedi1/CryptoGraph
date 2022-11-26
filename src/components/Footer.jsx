@@ -26,11 +26,7 @@ const Footer = () => {
             hover:text-main_color-600'/>
             
         </div>
-        <p class="mt-2 text-base leading-6 text-center flex items-center justify-center text-main_color-600">
-            Made With <span> <AiOutlineHeart  className='text-main_color-800 text-3xl cursor-pointer
-              transition ease-in-out delay-150  rounded-sm hover:-translate-y-1 hover:scale-110  duration-300
-            hover:text-main_color-600'/></span> by Aman Trivedi
-        </p>
+      
     </div>
 </section>
     </>
