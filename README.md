@@ -1,3 +1,20 @@
+<div align="center">
+      <h1> <img src="https://github.com/AmanTrivedi1/CryptoGraph/blob/main/src/components/Images/Logo.png" width="80px"><br/>CryptoGraph</h1>
+     </div>
+<p align="center"> <a href="https://crypto-graph-two.vercel.app/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
+
+# Description
+Know Crypto
+
+# Features
+What you get
+--get a graph of any coin
+--get a live info of any coin
+--get a live position of any coin
+# Screenshots
+ <img width="50%" src="https://github.com/AmanTrivedi1/CryptoGraph/blob/main/src/components/Images/Img-4.jpg">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
